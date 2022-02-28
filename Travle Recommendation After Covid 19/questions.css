@@ -1,0 +1,87 @@
+.questions{
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+    background-size: 100% 100%;
+    background-image: url("./image/beach.jpg");
+  }
+
+  @media screen and (max-width:1023px) {
+    .questions{
+        background-image: url("./image/beach_tablet.jpg");
+    }
+  }
+  
+  @media screen and (max-width:540px) {
+      .questions{
+          background-image: url("./image/beach_mobile.jpg");
+    }
+  }
+
+.second-head{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.setBtn {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10vh;
+}
+
+.questions_head{
+text-align: center;
+margin-top: 60px;
+font-family: 'Jua', sans-serif;
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+#questions{
+    display: inline-block;
+    font-size: 6vh;
+}
+
+#title{
+    display: inline-block;
+    font-size: 4.5vh;
+}
+
+
+    @media screen and (max-width:540px) {
+        #title{
+            font-size: 4vh;
+      }
+    }
+
+.questions-btn {
+    font-family: 'Jua', sans-serif;
+    background: #fff;
+    color:dimgrey;
+    border:none;
+    position:relative;
+    height:12vh;
+    width: 100vh;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:500ms ease all;
+    outline:none;
+    margin-top: 15px;
+    top: -50px;
+}
+
+
+    @media screen and (max-width:540px) {
+        .questions-btn{
+            width: 70vh;
+            font-size: 1.2em;
+      }
+    }
+
+.questions-btn:hover{
+    background-color: lightskyblue;
+    color:mintcream
+}
